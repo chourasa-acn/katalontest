@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+api-web-combination-sample - Create and update a task by both API and UI,Chrome 110.0.0.0,,,2023-02-16 21:56:29,2023-02-16 21:57:37,1m - 7.985s,FAILED
+,,,,,,,
+Test Cases/Create a new ticket by API,Chrome 110.0.0.0,,,2023-02-16 21:56:29,2023-02-16 21:56:37,7.740s,PASSED
+"sample.Common.createNewTicket(project, issueType, summary, expectedStatus)",Chrome 110.0.0.0,,,2023-02-16 21:56:30,2023-02-16 21:56:37,7.262s,PASSED
+,,,,,,,
+Test Cases/Create and update a ticket by both API and UI,Chrome 110.0.0.0,,,2023-02-16 21:56:37,2023-02-16 21:57:37,59.488s,FAILED
+"ticketKey = sample.Common.createNewTicket(project, issueType, summary)",Chrome 110.0.0.0,create a new task by calling api,,2023-02-16 21:56:37,2023-02-16 21:56:40,2.137s,PASSED
+sample.Common.accessJira(),Chrome 110.0.0.0,access to Jira and bypass authorization,,2023-02-16 21:56:40,2023-02-16 21:57:16,36.022s,PASSED
+"sample.Common.updateExistingTicket(ticketKey, newSummary)",Chrome 110.0.0.0,update the name of the task on UI,,2023-02-16 21:57:16,2023-02-16 21:57:37,21.035s,FAILED
