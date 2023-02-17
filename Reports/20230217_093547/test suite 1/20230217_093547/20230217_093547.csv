@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test suite 1,,,,2023-02-17 09:36:08,2023-02-17 09:36:19,10.981s,PASSED
+,,,,,,,
+Test Cases/Create a new ticket by API,,,,2023-02-17 09:36:09,2023-02-17 09:36:19,9.947s,PASSED
+"sample.Common.createNewTicket(project, issueType, summary, expectedStatus)",,,,2023-02-17 09:36:10,2023-02-17 09:36:19,9.060s,PASSED
+Start listener action : sampleAfterTestCase,,,,2023-02-17 09:36:19,2023-02-17 09:36:19,0.017s,PASSED

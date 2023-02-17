@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test suite 1" time="20.65" tests="1" failures="0" errors="0">
+   <testsuite name="test suite 1" tests="1" failures="0" errors="0" time="20.65" skipped="0" timestamp="2023-02-17 00:14:54" hostname="a.chourasia - CPX-OY0KSECNJWC.dir.svc.accenture.com" id="Test Suites/test suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\a.chourasia\\Katalon Studio\\katalontest\\Reports\\20230217_001419\\test suite 1\\20230217_001419"/>
+         <property name="logFiles" value="C:\\Users\\a.chourasia\\Katalon Studio\\katalontest\\Reports\\20230217_001419\\test suite 1\\20230217_001419\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a.chourasia - CPX-OY0KSECNJWC.dir.svc.accenture.com"/>
+         <property name="hostAddress" value="192.168.2.168"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Create a new ticket by API" time="18.731" classname="Test Cases/Create a new ticket by API" status="PASSED">
+         <system-out><![CDATA[2023-02-17 00:14:56 - [TEST_CASE][PASSED] - Test Cases/Create a new ticket by API: Test Cases/Create a new ticket by API
+
+2023-02-17 00:14:58 - [TEST_STEP][PASSED] - sample.Common.createNewTicket(project, issueType, summary, expectedStatus): sample.Common.createNewTicket is PASSED
+
+2023-02-17 00:15:13 - [MESSAGE][INFO] - HAR: C:\Users\a.chourasia\Katalon Studio\katalontest\Reports\20230217_001419\test suite 1\20230217_001419\requests\main\0.har
+
+2023-02-17 00:15:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-02-17 00:15:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-02-17 00:15:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-02-17 00:15:15 - [TEST_STEP][PASSED] - assert response.getStatusCode() == expectedStatus: null
+
+2023-02-17 00:15:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-02-17 00:15:15 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-02-17 00:15:15 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-02-17 00:15:15 - [MESSAGE][PASSED] - sample.Common.createNewTicket is PASSED
+
+2023-02-17 00:15:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-17 00:14:54 - [TEST_SUITE][PASSED] - test suite 1: Test Cases/Create a new ticket by API]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
