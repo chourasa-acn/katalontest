@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>api-web-combination-sample - Create and update a task by both API and UI</name>
+   <name>test suite 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -16,6 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create a new ticket by API</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,36 +40,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8d3de896-8ba4-4c1e-9812-c123d373c258</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c9c7027c-4e2b-472a-af26-0e9ad49dbc55</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create and update a ticket by both API and UI</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>64bd85d7-7795-4cb6-a05b-3bf26fb66127</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a6dc30f6-4ea0-45b5-89de-e05adf9add85</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f0a04e2-9584-4019-aa84-5dc9f837e1d3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>33b33e69-742d-471f-9454-ccdf4dfdb5d9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
